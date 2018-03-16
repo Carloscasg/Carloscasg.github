@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Experiencia</title>
+  </head>
+  <body>
+    <header>
+      <img src="img/logo.svg" width="150px" alt="Logo_De_CarlosSaldaña" title="Logo_De_CarlosSaldaña"/>
+      <h1>Hoja de Vida</h1>
+      <h2>Carlos Arturo Saldaña Gallegos</h2>
+      <h3>05 de Julio de 1996 | CDMX </h3>
+      <p>
+        <a href="index.html">Inicio</a> | <a href="educacion.html">Educación</a> | <a href="experiencia.html">Experiencia</a>
+      </p>
+      <h2>Experiencia</h2>
+      <h3>Habilidades e Intereses</h3>
+      <video controls height="300">
+        <source src="media/HabilidadesIntereses.mp4" type="video/mp4">
+        </video>
+        <strong><h3><p>Hobbies y Actividades </p></h3></strong>
+    <audio src="media/HobbiesActividades.wav" controls></audio>
+    <source src="audios/audio.wav" type="audio/wav">
+    </header>
+    <footer>
+      <strong><li>Correo: <a href="mailto:carlos.saldana.casg@gmail.com">carlos.saldana.casg@gmail.com</a></li></strong>
+      <strong><li>Teléfono: 9992723163</li></strong>
+    </footer>
+  </body>
+</html>
