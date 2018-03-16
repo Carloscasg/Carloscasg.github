@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Educación</title>
+  </head>
+  <body>
+    <header>
+      <img src="img/logo.svg" width="150px" alt="Logo_De_CarlosSaldaña" title="Logo_De_CarlosSaldaña"/>
+      <h1>Hoja de Vida</h1>
+      <h2>Carlos Arturo Saldaña Gallegos</h2>
+      <h3>05 de Julio de 1996 | CDMX </h3>
+      <p>
+        <a href="index.html">Inicio</a> | <a href="educacion.html">Educación</a> | <a href="experiencia.html">Experiencia</a>
+      </p>
+      <h2>Educación</h2>
+      <table border="1" cellpadding="0" cellspacing="0">
+    <thead>
+      <tr>
+        <th>Año</th>
+        <th>Institución</th>
+        <th>Lugar</th>
+        <th>¿Culminó?</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2002-2008</td>
+        <td>Gabriela Mistral</td>
+        <td>Primaria</td>
+        <td>Si</td>
+      </tr>
+      <tr>
+        <td>2008-2011</td>
+        <td>Jose Andres Antuña Sanchez</td>
+        <td>Secundaria</td>
+        <td>Si</td>
+      </tr>
+      <tr>
+        <td>2011-2014</td>
+        <td>Conalep Mérida III</td>
+        <td>Bachillerato Técnico</td>
+        <td>Si</td>
+      </tr>
+    </tbody>
+  </table></br>
+  <fieldset>
+  <h2>Agregar Estudios</h2>
+    <form action="">
+      <strong><p>Año<br/></strong>
+        <input type="date">
+      </p>
+      <p>
+        <strong><label for="username">Institución</label></strong>
+      <input type="text" required>
+    </p>
+    <p>
+      <strong><label for="username">Lugar</label></strong>
+    <input type="text">
+  </p>
+  <p>
+      <strong><label for="genre">¿Culminó?</label></strong>
+
+      <input type="radio" name="genre"> Si
+
+      <input type="radio" name="genre"> No
+    </p>
+    <input type="submit" value="Envíar">
+  </fieldset></br>
+</header>
+  <footer>
+    <strong><li>Correo: <a href="mailto:carlos.saldana.casg@gmail.com">carlos.saldana.casg@gmail.com</a></li></strong>
+    <strong><li>Teléfono: 9992723163</li></strong>
+  </footer>
+  </body>
+</html>
